@@ -12,7 +12,7 @@ html{
 
 body{
     box-sizing: border-box;
-    background-color: blanchedalmond;
+    background-color: rgb(236, 239, 241);
 }
 
 #background{
@@ -25,10 +25,24 @@ body{
 
 #mainBody{
     box-sizing:border-box;
-    background-color:rgb(153, 135, 127);
+    background-color:rgb(161, 136, 127);
     height:80vh;
-    max-height:calc(90vw/(4/3)); /* Change the aspect ratio here */
+    max-height:calc(90vw/(3/4)); /* Change the aspect ratio here */
     width:auto;
-    aspect-ratio: 4/3; /* Change the aspect ratio here */
+    aspect-ratio: 3/4; /* Change the aspect ratio here */
     max-width:90vw;
+    border-radius:1.8%;
+    display:flex;
+    flex-direction:column;
+    padding:2%;
+}
+#topBox{
+    flex:1 1 25%;
+
+}
+#mainBox{
+    background-color: rgb(236, 239, 241);
+    flex:1 1 75%;
+    border-radius:1.8%;
+
 }
