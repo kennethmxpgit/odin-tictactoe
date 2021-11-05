@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    user-select:none;
+    touch-action: none;
+    box-sizing: border-box;
+
+}
+html{
+    font-size:62.5;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+#background{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainBody{
+    box-sizing:border-box;
+    background-color:rgb(153, 135, 127);
+    height:80vh;
+    max-height:calc(90vw/(4/3)); /* Change the aspect ratio here */
+    width:auto;
+    aspect-ratio: 4/3; /* Change the aspect ratio here */
+    max-width:90vw;
+}
