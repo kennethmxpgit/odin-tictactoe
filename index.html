@@ -5,14 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <div id=background>
         <div id='mainBody'>
-            <div id='topBox'></div>
-            <div id='mainBox'></div>
+            <div id='topBox'>
+                <p id=title>TIC TAC TOE</p>
+                <p id=desc>A part of The Odin Project's curriculum</p>
+                <div>
+                    <button id='vsHuman'>VS Human</button>
+                    <button id='vsAI'>VS AI</button>
+                    <div id=statText>text here</div>
+                </div>
+            </div>
+            <div id='mainBox'>
+                <div id='gameBox'>
+                    <div id='tl' class='panel'></div>
+                    <div id='t' class='panel'></div>
+                    <div id='tr' class='panel'></div>
+                    <div id='l' class='panel'></div>
+                    <div id='m' class='panel'></div>
+                    <div id='r' class='panel'></div>
+                    <div id='bl' class='panel'></div>
+                    <div id='b' class='panel'></div>
+                    <div id='br' class='panel'></div>
+                    
+                </div>
+            </div>
             </div>
         </div>
     </div>
